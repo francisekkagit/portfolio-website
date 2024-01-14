@@ -2,15 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color:black;
+  color:white;
+}
+
 @layer utilities {
   /* BUTTONS */
+  .btn_nav {
+    @apply px-5 rounded-xl regular-18 hover:text-website-20 transition-all duration-200;
+  }
+  .btn_nav_social {
+    @apply hover:text-website-20 transition-all duration-200;
+  }
 
   /* COMPONENTS & PAGES */
   .max-container {
     @apply mx-auto max-w-[2500px];
   }
   .padding-nav{
-    @apply px-3;
+    @apply 
+    px-2 sm:px-3 md:px-4 lg:px-6
+    py-2;
+  }
+  .rowCenter {
+    @apply flex flex-row items-center;
   }
 
   
