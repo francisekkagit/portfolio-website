@@ -11,6 +11,8 @@ module.exports = {
         website: {
           10: "#081b29",
           20: "#00abf1",
+          30: "#122e43",
+
         },
       },
       backgroundImage: {

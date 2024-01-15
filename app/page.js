@@ -1,8 +1,16 @@
+import AboutTile from '@/components/Tiles/AboutTile'
+import HeroTile from '@/components/Tiles/HeroTile'
+import ProjectTile from '@/components/Tiles/ProjectTile'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className='w-full'>
+      <HeroTile/>
+      <AboutTile/>
+      <ProjectTile/>
+      
+      {/* Latin Text 
       <p className='max-w-xl'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A erat nam at lectus urna duis convallis. Ut lectus arcu bibendum at varius. Risus pretium quam vulputate dignissim suspendisse in est ante. Rutrum quisque non tellus orci. Nulla porttitor massa id neque aliquam vestibulum morbi. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Molestie a iaculis at erat pellentesque adipiscing. Nisl pretium fusce id velit ut tortor pretium viverra. Vel eros donec ac odio tempor orci. Sagittis eu volutpat odio facilisis mauris sit amet.
         <br/>
@@ -18,6 +26,8 @@ export default function Home() {
         <br/>
         Quam id leo in vitae turpis massa sed elementum tempus. Feugiat nisl pretium fusce id. Nisl condimentum id venenatis a condimentum. Sit amet purus gravida quis. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Quis lectus nulla at volutpat diam ut venenatis tellus in. Tellus id interdum velit laoreet id donec ultrices tincidunt. Ut pharetra sit amet aliquam. Sed faucibus turpis in eu. Elit sed vulputate mi sit amet. Amet venenatis urna cursus eget nunc. Commodo viverra maecenas accumsan lacus vel. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Sed viverra tellus in hac. Tempus iaculis urna id volutpat lacus laoreet non curabitur.
       </p>
+      */}
+
     </div>
   )
 }
