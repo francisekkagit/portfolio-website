@@ -11,7 +11,7 @@ const HeroTile = () => {
     <div className='bg-website-10'>
         <div className='flex flex-col w-[60%]'>
             <h1>Hi There,</h1>
-            <h1>I'm Francis Ekka</h1>
+            <h1>I am Francis Ekka</h1>
             <Swiper 
                 autoplay={{
                     delay: 2000,
