@@ -6,6 +6,10 @@ body{
   background-color:black;
   color:white;
 }
+.swiper{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
 @layer utilities {
   /* BUTTONS */
@@ -40,14 +44,14 @@ body{
   }
 
   .regular-32 {
-    @apply text-[32px] font-[400];
+    @apply text-[32px] font-[300];
   }
   .regular-28 {
-    @apply text-[28px] font-[400];
+    @apply text-[28px] font-[200];
   }
 
   .regular-24 {
-    @apply text-[24px] font-[400];
+    @apply text-[24px] font-[200];
   }
 
   .regular-20 {

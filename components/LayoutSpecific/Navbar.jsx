@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-website-10 border-b-2 border-white'>
+    <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-website-10 border-b-2 border-gray-500'>
         <Link href="/"><h1>Logo</h1></Link>
 
         <div className='rowCenter px-3 gap-6'>
