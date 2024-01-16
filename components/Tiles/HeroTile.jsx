@@ -10,14 +10,14 @@ import "swiper/css";
 
 const HeroTile = () => {
   return (
-    <div className='bg-website-10 flex flex-row justify-center py-4'>
+    <div className='bg-website-10 flex flex-row max-[878px]:flex-col max-[878px]:items-center justify-center py-4'>
 
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col justify-center max-[470px]:text-center max-[470px]:mx-2'>
             <h1>Hi There,</h1>
             <h1>I&#39;m Francis Ekka</h1>
             <h2>Full Stack Developer in Danville, CA</h2>
             
-            <div className='flex flex-row'>
+            <div className='flex flex-row max-[470px]:hidden'>
                 <h3 className='pr-[6px]'>My skills include</h3>
                 <div className='max-w-[300px]'>
                     <Swiper 
@@ -42,7 +42,7 @@ const HeroTile = () => {
             </div>
         </div>
 
-        <Link href="/About"><Image src="/component_imgs/francisProfile1.png" alt='Francis Ekka' width={400} height={400} className='ml-4 drop-shadow-2xl'/></Link>
+        <Link href="/About" className='min-[878px]:ml-4 max-[878px]:mt-3 max-[878px]:mx-2'><Image src="/component_imgs/francisProfile1.png" alt='Francis Ekka' width={400} height={400} className='drop-shadow-2xl'/></Link>
     </div>
   )
 }
