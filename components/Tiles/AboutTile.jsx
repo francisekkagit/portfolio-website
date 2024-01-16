@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutTile = () => {
   return (
-    <div className='bg-website-30'>
+    <div className='bg-website-20'>
         AboutTile
     </div>
   )

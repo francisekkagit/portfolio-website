@@ -10,9 +10,12 @@ module.exports = {
       colors: {
         website: {
           10: "#081b29",
-          20: "#00abf1",
-          30: "#122e43",
+          20: "#122e43",
 
+        },
+        websiteHighlight: {
+          10: "#00abf1",
+          20: "#0275a3",
         },
       },
       backgroundImage: {

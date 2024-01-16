@@ -14,10 +14,16 @@ body{
 @layer utilities {
   /* BUTTONS */
   .btn_nav {
-    @apply px-5 rounded-xl regular-18 hover:text-website-20 transition-all duration-200;
+    @apply px-5 rounded-xl regular-18 hover:text-websiteHighlight-10 transition-all duration-200;
   }
   .btn_nav_social {
-    @apply hover:text-website-20 transition-all duration-200;
+    @apply hover:text-websiteHighlight-10 transition-all duration-200;
+  }
+  .link_dropdown {
+    @apply regular-18 pl-2 pr-12 py-1 hover:bg-websiteHighlight-20 transition-all duration-200;
+  }
+  .link_dropdown_social {
+    @apply py-3 hover:bg-websiteHighlight-20 transition-all duration-200
   }
 
   /* COMPONENTS & PAGES */
