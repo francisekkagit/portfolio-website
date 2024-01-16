@@ -3,18 +3,9 @@ import Link from 'next/link'
 import {React, Fragment} from "react";
 import { Menu, Transition } from '@headlessui/react'
 
-const pages = [
-    {"text": "Home", "link": "/"}, 
-    {"text": "About", "link": "/About"}, 
-    {"text": "Projects", "link": "/Projects"}, 
-    {"text": "Skills", "link": "/Skills"}, 
-    {"text": "Contact", "link": "/Contact"},
-]
-
-
 const Navbar = () => {
   return (
-    <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-website-10'>
+    <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-website-10 z-30'>
         <Link href="/"><h1>Logo</h1></Link>
 
         <div className='rowCenter px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>
@@ -25,6 +16,7 @@ const Navbar = () => {
         </div>
 
         <div className='rowCenter px-3 gap-4 max-sm:hidden'>
+            {/* LinkedIn */}
             <Link href="https://www.linkedin.com/in/francisekka/">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -35,6 +27,7 @@ const Navbar = () => {
                         d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                 </svg>
             </Link>
+            {/* GitHub */}
             <Link href="https://github.com/francisekkagit">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -48,9 +41,6 @@ const Navbar = () => {
         </div>
 
         <div className='sm:hidden'>
-            
-            
-
             <Menu>
                 <Menu.Button>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
@@ -66,7 +56,7 @@ const Navbar = () => {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                 >
-                <Menu.Items className="bg-websiteHighlight-10 absolute flex flex-col right-0 top-[40px] rounded-xl overflow-hidden">
+                <Menu.Items className="bg-websiteHighlight-10 absolute flex flex-col right-0 top-[40px] rounded-xl overflow-hidden border-0">
                     <Menu.Item>
                         <Link href="/" className="link_dropdown">Home</Link>
                     </Menu.Item>
@@ -137,7 +127,6 @@ const Navbar = () => {
                 </Menu.Items>
                 </Transition>
             </Menu>
-        
         </div>
     </div>
   )

@@ -20,10 +20,10 @@ body{
     @apply hover:text-websiteHighlight-10 transition-all duration-200;
   }
   .link_dropdown {
-    @apply regular-18 pl-2 pr-12 py-1 hover:bg-websiteHighlight-20 transition-all duration-200;
+    @apply regular-18 pl-3 pr-20 py-1 hover:bg-websiteHighlight-20 transition-all duration-200;
   }
   .link_dropdown_social {
-    @apply py-3 hover:bg-websiteHighlight-20 transition-all duration-200
+    @apply py-2 hover:bg-websiteHighlight-20 transition-all duration-200
   }
 
   /* COMPONENTS & PAGES */
