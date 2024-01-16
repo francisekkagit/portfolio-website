@@ -5,7 +5,7 @@ import { Menu, Transition } from '@headlessui/react'
 
 const Navbar = () => {
   return (
-    <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-website-10 z-30'>
+    <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-website-10 z-30 drop-shadow-2xl'>
         <Link href="/"><h1>Logo</h1></Link>
 
         <div className='rowCenter px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>

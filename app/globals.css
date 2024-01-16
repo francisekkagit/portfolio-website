@@ -50,10 +50,10 @@ body{
   }
 
   .regular-32 {
-    @apply text-[32px] font-[300];
+    @apply text-[32px] ;
   }
   .regular-28 {
-    @apply text-[28px] font-[200];
+    @apply text-[28px] font-[300];
   }
 
   .regular-24 {
