@@ -2,19 +2,9 @@ import React from 'react'
 
 const AboutTile = () => {
   return (
-    <div className='bg-website-20'>
-        AboutTile
-        <p className='max-w-xl'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis volutpat est velit egestas. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Vestibulum morbi blandit cursus risus at. Odio ut enim blandit volutpat. Accumsan tortor posuere ac ut consequat semper. Tortor id aliquet lectus proin nibh. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Tincidunt tortor aliquam nulla facilisi cras fermentum odio. Iaculis nunc sed augue lacus. Maecenas ultricies mi eget mauris pharetra et. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Sodales neque sodales ut etiam. Morbi quis commodo odio aenean sed adipiscing diam donec adipiscing. Sed sed risus pretium quam vulputate dignissim. Ac turpis egestas maecenas pharetra convallis posuere. Lorem ipsum dolor sit amet consectetur adipiscing elit.
+    <div className='bg-website-20 px-4 py-3'>
+      AboutTile
 
-In nibh mauris cursus mattis molestie a iaculis. Morbi tristique senectus et netus et. Massa id neque aliquam vestibulum morbi. Quisque egestas diam in arcu cursus euismod quis viverra. Consectetur adipiscing elit duis tristique sollicitudin. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Euismod nisi porta lorem mollis aliquam ut porttitor. Quis hendrerit dolor magna eget est. Ornare arcu dui vivamus arcu. Eu nisl nunc mi ipsum faucibus vitae. Ac feugiat sed lectus vestibulum mattis ullamcorper. Venenatis cras sed felis eget velit aliquet sagittis id. Lacinia quis vel eros donec ac odio tempor. Consequat nisl vel pretium lectus quam id leo. In hendrerit gravida rutrum quisque non tellus orci ac.
-
-Velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Imperdiet proin fermentum leo vel. Tortor vitae purus faucibus ornare suspendisse sed. Nunc congue nisi vitae suscipit. Volutpat lacus laoreet non curabitur gravida arcu ac tortor. Euismod lacinia at quis risus sed. Elementum integer enim neque volutpat ac tincidunt. Facilisi nullam vehicula ipsum a arcu cursus vitae. Ut lectus arcu bibendum at varius vel pharetra vel turpis. Purus sit amet luctus venenatis lectus magna fringilla. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Quam viverra orci sagittis eu volutpat odio facilisis. Semper risus in hendrerit gravida rutrum quisque.
-
-Molestie nunc non blandit massa enim. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Nunc sed blandit libero volutpat sed cras ornare arcu dui. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Varius sit amet mattis vulputate enim nulla. Elit scelerisque mauris pellentesque pulvinar. Tempor commodo ullamcorper a lacus vestibulum. Eget mauris pharetra et ultrices neque ornare. Diam quis enim lobortis scelerisque fermentum dui. Sit amet consectetur adipiscing elit duis tristique. Morbi tempus iaculis urna id. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. Adipiscing enim eu turpis egestas pretium aenean pharetra magna.
-
-Pellentesque habitant morbi tristique senectus. Ac orci phasellus egestas tellus rutrum. Ipsum nunc aliquet bibendum enim. Scelerisque varius morbi enim nunc faucibus. Egestas erat imperdiet sed euismod nisi porta lorem mollis. Dolor sit amet consectetur adipiscing elit. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Arcu felis bibendum ut tristique et egestas quis. Id donec ultrices tincidunt arcu non. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Enim ut tellus elementum sagittis vitae. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Praesent semper feugiat nibh sed pulvinar proin.
-        </p>
     </div>
   )
 }

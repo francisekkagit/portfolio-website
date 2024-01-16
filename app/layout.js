@@ -1,20 +1,23 @@
+"use client"
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/LayoutSpecific/Navbar'
+import {NextUIProvider} from "@nextui-org/react";
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Francis Ekka',
-  description: 'Website for Web Developer Francis Ekka.',
-}
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='max-container'>
-        <Navbar/>
-        {children}
+      <body className='max-container hide-scrollbar'>
+        <NextUIProvider>
+          <Navbar/>
+          {children}
+        </NextUIProvider>
+          
+  
       </body>
     </html>
   )
