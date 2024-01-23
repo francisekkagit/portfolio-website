@@ -53,7 +53,7 @@ const Navbar = () => {
                     <DropdownItem key="About" className='p-0'><Link href="/About" className="link_dropdown">About</Link></DropdownItem>
                     <DropdownItem key="Projects" className='p-0'><Link href="/Projects" className="link_dropdown">Projects</Link></DropdownItem>
                     <DropdownItem key="Skills" className='p-0'><Link href="/Skills" className="link_dropdown">Skills</Link></DropdownItem>
-                    <DropdownItem key="Socials" className='p-0 border-b'>
+                    <DropdownItem key="Socials" className='p-0'>
                         <div className='flex flex-row gap-3 justify-center py-2'>
                             {/* LinkedIn */}
                             <Link href="https://www.linkedin.com/in/francisekka/">
