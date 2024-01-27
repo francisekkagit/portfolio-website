@@ -5,6 +5,7 @@
 html{scroll-behavior:smooth;}
 
 body{
+  background-color: red;
 }
 .swiper{
   margin-left: 0px;
