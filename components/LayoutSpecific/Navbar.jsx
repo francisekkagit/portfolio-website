@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className='rowCenter px-3 gap-4 max-sm:hidden'>
             
             
-            <ThemeSwitcher/>
+            
             
             
             {/* LinkedIn */}
