@@ -6,7 +6,7 @@ const HeroTileV2 = () => {
     <div className='flex flex-col md:flex-row'>
         
         <div className='border-2 border-red-500 w-full h-[50vh] md:w-[60vw] md:h-screenNav'>
-          <h3>Hi, I'm Francis</h3>
+          <h3>Hi, I&#39;m Francis</h3>
           <h1 className='regular-64'>Fullstack Developer</h1>
           <h3>Located in Danville, CA</h3>
         </div>
