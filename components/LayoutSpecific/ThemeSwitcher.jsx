@@ -1,23 +1,70 @@
 "use client"
 import {useTheme} from "next-themes";
 import React, { useEffect, useState } from "react";
+import {Switch, VisuallyHidden, useSwitch} from "@nextui-org/react";
 
-const ThemeSwitcher = () => {
+const ThemeSwitcher = (props) => {
   const [mounted, setMounted] = useState(false)
   const {theme, setTheme} = useTheme()
+  const {
+    Component, 
+    slots, 
+    isSelected, 
+    getBaseProps, 
+    getInputProps, 
+    getWrapperProps
+  } = useSwitch(props);
 
   useEffect(() => {
     setMounted(true)
   }, [])
 
   if(!mounted){
-    return <div>Not Mounted</div>
+    return( 
+        <div className="flex flex-col gap-2">
+      <Component {...getBaseProps()}>
+          <VisuallyHidden>
+            <input {...getInputProps()} />
+          </VisuallyHidden>
+          <div
+            {...getWrapperProps()}
+            className={slots.wrapper({
+              class: [
+                "w-8 h-8",
+                "flex items-center justify-center",
+                "rounded-lg bg-default-100 hover:bg-default-200",
+              ],
+            })}
+          >
+            {isSelected ? <p>hi</p> : <p>bye</p>}
+          </div>
+      </Component>
+      <p className="text-default-500 select-none">Lights: {isSelected ? "on" : "off"}</p>
+    </div>
+    )
   }
     return (
     <div className="bg-red-500">
-     Current Theme: {theme}
-     <button onClick={() => setTheme('light')} className="border-2 border-black mx-1">Light Mode</button>
-        <button onClick={() => setTheme('dark')} className="border-2 border-black mx-1">Dark Mode</button>
+     <div className="flex flex-col gap-2">
+      <Component {...getBaseProps()}>
+          <VisuallyHidden>
+            <input {...getInputProps()} />
+          </VisuallyHidden>
+          <div
+            {...getWrapperProps()}
+            className={slots.wrapper({
+              class: [
+                "w-8 h-8",
+                "flex items-center justify-center",
+                "rounded-lg bg-default-100 hover:bg-default-200",
+              ],
+            })}
+          >
+            {isSelected ? <p>hi</p> : <p>bye</p>}
+          </div>
+      </Component>
+      <p className="text-default-500 select-none">Lights: {isSelected ? "on" : "off"}</p>
+    </div>
     </div>
   )
 }

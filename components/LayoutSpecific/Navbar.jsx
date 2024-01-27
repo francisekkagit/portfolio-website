@@ -20,9 +20,9 @@ const Navbar = () => {
         {/* ThemeSwitcher + Social Icons Desktop */}
         <div className='rowCenter px-3 gap-4 max-sm:hidden'>
             
-            <div>
-                <ThemeSwitcher/>
-            </div>
+            
+            <ThemeSwitcher/>
+            
             
             {/* LinkedIn */}
             <Link href="https://www.linkedin.com/in/francisekka/">
