@@ -13,8 +13,10 @@ export default function RootLayout({ children }) {
       <body className='max-container hide-scrollbar'>
         <NextUIProvider>
           {/* Dark Default */}
+          <NextThemesProvider attribute='class' defaultTheme='dark'>
             <Navbar/>
             {children}
+          </NextThemesProvider>
         </NextUIProvider>
           
   
