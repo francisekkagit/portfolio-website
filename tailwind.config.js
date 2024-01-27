@@ -33,13 +33,13 @@ module.exports = {
   darkMode: "class",
   plugins: [nextui({
     themes: {
-      "dark": {
+      "light": {
         colors:{
           background: "#FFFFFF",
           foreground: "#000000"
         }
       },
-      "light": {
+      "dark": {
         colors:{
           background: "#000000",
           foreground: "#FFFFFF"
