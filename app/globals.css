@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html{scroll-behavior:smooth;}
+
 body{
-  background-color:black;
+  background:black;
   color:white;
 }
 .swiper{
   margin-left: 0px;
   margin-right: 0px;
+}
+section{
+  scroll-margin-top: 64px;
 }
 
 @layer utilities {

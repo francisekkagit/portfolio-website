@@ -10,9 +10,9 @@ import "swiper/css";
 
 const HeroTile = () => {
   return (
-    <div className='bg-website-10 flex flex-row max-[878px]:flex-col max-[878px]:items-center justify-center py-4'>
+    <section id='heroTile' className='bg-website-10 flex flex-row max-[878px]:flex-col max-[878px]:items-center justify-center max-[878px]:py-4 pb-8 pt-2'>
 
-        <div className='flex flex-col justify-center max-[470px]:text-center max-[470px]:mx-2'>
+        <div className='flex flex-col justify-center max-[470px]:text-center'>
             <h1>Hi There,</h1>
             <h1>I&#39;m Francis Ekka</h1>
             <h2>Full Stack Developer in Danville, CA</h2>
@@ -42,8 +42,8 @@ const HeroTile = () => {
             </div>
         </div>
 
-        <Link href="/About" className='min-[878px]:ml-4 max-[878px]:mt-3 max-[878px]:mx-2'><Image src="/component_imgs/francisProfile1.png" alt='Francis Ekka' width={400} height={400} className='drop-shadow-2xl'/></Link>
-    </div>
+        <Link href="/" className=''><Image src="/component_imgs/francisProfile1.png" alt='Francis Ekka' width={400} height={400} className='drop-shadow-2xl'/></Link>
+    </section>
   )
 }
 

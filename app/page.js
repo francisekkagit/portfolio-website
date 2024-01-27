@@ -1,6 +1,7 @@
-import AboutTile from '@/components/Tiles/AboutTile'
 import HeroTile from '@/components/Tiles/HeroTile'
-import ProjectTile from '@/components/Tiles/ProjectTile'
+import HeroTileV2 from '@/components/Tiles/HeroTileV2'
+import OverviewTile from '@/components/Tiles/OverviewTile'
+import SkillsTile from '@/components/Tiles/SkillsTile'
 import Image from 'next/image'
 
 export const metadata = {
@@ -11,9 +12,9 @@ export const metadata = {
 export default function Home() {
   return (
     <div className='w-full'>
-      <HeroTile/>
-      <AboutTile/>
-      <ProjectTile/>
+      <HeroTileV2/>
+      <OverviewTile/>
+      <SkillsTile/>
     </div>
   )
 }

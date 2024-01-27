@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height:{
+        screenNav:'93.6vh',
+      },
       colors: {
         website: {
           10: "#081b29",
