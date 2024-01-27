@@ -3,19 +3,27 @@ import Link from 'next/link'
 import {React, Fragment} from "react";
 import { Menu, Transition } from '@headlessui/react'
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
+import ThemeSwitcher from './ThemeSwitcher';
 
 const Navbar = () => {
   return (
     <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-transparent backdrop-blur-sm z-30 drop-shadow-2xl'>
         <Link href="/"><h1>Logo</h1></Link>
 
+        {/* Main Menu Desktop */}
         <div className='rowCenter px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>
             <Link href="/About"><button className='btn_nav'>About</button></Link>
             <Link href="/Projects"><button className='btn_nav'>Projects</button></Link>
             <Link href="/#Skills"><button className='btn_nav'>Skills</button></Link>
         </div>
 
+        {/* ThemeSwitcher + Social Icons Desktop */}
         <div className='rowCenter px-3 gap-4 max-sm:hidden'>
+            
+            <div>
+                <ThemeSwitcher/>
+            </div>
+            
             {/* LinkedIn */}
             <Link href="https://www.linkedin.com/in/francisekka/">
                 <svg
@@ -40,6 +48,9 @@ const Navbar = () => {
             </Link>
         </div>
 
+        
+
+        {/* Dropdown Menu Mobile*/}
         <div className='sm:hidden'>
             <Dropdown backdrop="blur" className='bg-website-20'>
                 <DropdownTrigger>
