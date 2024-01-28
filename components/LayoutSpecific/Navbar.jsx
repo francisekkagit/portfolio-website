@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import {React, Fragment} from "react";
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
+import ThemeSwitcher from './ThemeSwitcher';
 
 const Navbar = () => {
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
         {/* ThemeSwitcher + Social Icons Desktop */}
         <div className='rowCenter px-3 gap-4 max-sm:hidden'>
             
-            
+            <ThemeSwitcher/>
             
             {/* LinkedIn */}
             <Link href="https://www.linkedin.com/in/francisekka/">
