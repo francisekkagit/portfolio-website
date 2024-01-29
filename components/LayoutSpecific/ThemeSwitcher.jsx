@@ -21,8 +21,16 @@ const ThemeSwitcher = (props) => {
   const { theme, setTheme } = useTheme()
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    // Set isSelected based on the current theme
+    const newIsSelected = theme === 'dark';
+    // Update the state only if it's different to avoid unnecessary re-renders
+    if (isSelected !== newIsSelected) {
+      setIsSelected(newIsSelected);
+    }
+  
+    // Set mounted to true on component mount
+    setMounted(true);
+  }, [theme, isSelected]);
 
   const switchTheme = () => {
     // Toggle between light and dark themes
