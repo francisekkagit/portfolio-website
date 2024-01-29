@@ -24,6 +24,18 @@ const ThemeSwitcher = (props) => {
     setMounted(true)
   }, [])
 
+  const switchTheme = () => {
+    // Toggle between light and dark themes
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+  
+    // Remove the old theme class and add the new one
+    document.documentElement.classList.remove(theme);
+    document.documentElement.classList.add(newTheme);
+  
+    // Update the theme using next-themes setTheme function
+    setTheme(newTheme);
+  };
+
   if(!mounted) return <div className="bg-red-600 px-1">Not Mounted</div>
 
   return (
@@ -41,10 +53,7 @@ const ThemeSwitcher = (props) => {
                 "rounded-lg bg-default-100 hover:bg-default-200 z-30",
               ],
             })}
-            onClick={() => {
-              // Toggle between light and dark themes when the switcher is clicked
-              setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
-            }}
+            onClick={switchTheme}
           >
             {isSelected ? <p>Light</p> : <p>Dark</p>}
           </div>
