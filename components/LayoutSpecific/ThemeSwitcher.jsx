@@ -27,7 +27,7 @@ const ThemeSwitcher = (props) => {
   if(!mounted) return <div className="bg-red-600 px-1">Not Mounted</div>
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 relative">
       <Component {...getBaseProps()}>
           <VisuallyHidden>
             <input {...getInputProps()} />
@@ -42,7 +42,7 @@ const ThemeSwitcher = (props) => {
               ],
             })}
           >
-            {isSelected ? <button className="border-2 border-red-500" onClick={() => setTheme('light')}>Light</button> : <button className="border-2 border-red-500" onClick={() => setTheme('dark')}>Dark</button>}
+            {isSelected ? <button className="absolute border-2 border-red-500 top-0" onClick={() => setTheme('light')}>Light Mode</button> : <button className="absolute border-2 border-red-500 top-0" onClick={() => setTheme('dark')}>Dark Mode</button>}
           </div>
       </Component>
     </div>
