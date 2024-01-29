@@ -46,7 +46,7 @@ const ThemeSwitcher = (props) => {
               setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
             }}
           >
-            {isSelected ? <button className="border-2 border-red-500">Light</button> : <button className="border-2 border-red-500">Dark</button>}
+            {isSelected ? <p>Light</p> : <p>Dark</p>}
           </div>
       </Component>
     </div>
