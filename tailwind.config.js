@@ -36,13 +36,15 @@ module.exports = {
       "light": {
         colors:{
           background: "#FFFFFF",
-          foreground: "#000000"
+          foreground: "#000000",
+          focus: "#28c900"
         }
       },
       "dark": {
         colors:{
           background: "#000000",
-          foreground: "#FFFFFF"
+          foreground: "#FFFFFF",
+          focus: "#ab00c9"
         }
       }
     }
