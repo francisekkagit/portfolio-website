@@ -36,13 +36,13 @@ const ThemeSwitcher = (props) => {
             {...getWrapperProps()}
             className={slots.wrapper({
               class: [
-                "w-8 h-8",
+                "w-[80px] h-[27px]",
                 "flex items-center justify-center",
                 "rounded-lg bg-default-100 hover:bg-default-200",
               ],
             })}
           >
-            {isSelected ? <button onClick={() => setTheme('light')}>Light</button> : <button onClick={() => setTheme('dark')}>Dark</button>}
+            {isSelected ? <button className="border-2 border-red-500" onClick={() => setTheme('light')}>Light</button> : <button className="border-2 border-red-500" onClick={() => setTheme('dark')}>Dark</button>}
           </div>
       </Component>
     </div>
