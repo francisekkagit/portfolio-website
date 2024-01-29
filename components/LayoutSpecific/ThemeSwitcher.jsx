@@ -11,7 +11,7 @@ const ThemeSwitcher = (props) => {
   const {
     Component, 
     slots, 
-    isSelected, 
+    isSelected: initialIsSelected, 
     getBaseProps, 
     getInputProps, 
     getWrapperProps
@@ -19,6 +19,7 @@ const ThemeSwitcher = (props) => {
 
     const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
+  const [isSelected, setIsSelected] = useState(initialIsSelected);
 
   useEffect(() => {
     // Set isSelected based on the current theme
