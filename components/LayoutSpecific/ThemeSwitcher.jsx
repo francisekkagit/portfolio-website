@@ -41,8 +41,12 @@ const ThemeSwitcher = (props) => {
                 "rounded-lg bg-default-100 hover:bg-default-200 z-30",
               ],
             })}
+            onClick={() => {
+              // Toggle between light and dark themes when the switcher is clicked
+              setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+            }}
           >
-            {isSelected ? <button className="border-2 border-red-500" onClick={() => setTheme('light')}>Light Mode</button> : <button className="border-2 border-red-500" onClick={() => setTheme('dark')}>Dark Mode</button>}
+            {isSelected ? <button className="border-2 border-red-500">Light Mode</button> : <button className="border-2 border-red-500">Dark Mode</button>}
           </div>
       </Component>
     </div>
