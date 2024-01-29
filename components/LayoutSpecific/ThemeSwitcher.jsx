@@ -64,7 +64,7 @@ const ThemeSwitcher = (props) => {
             })}
             onClick={switchTheme}
           >
-            {isSelected ? <p>Light</p> : <p>Dark</p>}
+            {isSelected ? <p>Dark</p> : <p>Light</p>}
           </div>
       </Component>
     </div>
