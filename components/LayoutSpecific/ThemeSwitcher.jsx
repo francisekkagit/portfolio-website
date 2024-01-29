@@ -42,10 +42,9 @@ const ThemeSwitcher = (props) => {
               ],
             })}
           >
-            {isSelected ? <button onClick={() => setTheme('light')}>Light Mode</button> : <button onClick={() => setTheme('dark')}>Dark Mode</button>}
+            {isSelected ? <button onClick={() => setTheme('light')}>Light</button> : <button onClick={() => setTheme('dark')}>Dark</button>}
           </div>
       </Component>
-      <p className="text-default-500 select-none">Lights: {isSelected ? "Light Mode" : "Dark Mode"}</p>
     </div>
   )
 }
