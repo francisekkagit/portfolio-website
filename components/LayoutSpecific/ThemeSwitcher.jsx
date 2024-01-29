@@ -2,11 +2,21 @@
 
 import {useTheme} from "next-themes";
 import { useEffect, useState } from "react";
+import {Switch, VisuallyHidden, useSwitch} from "@nextui-org/react";
 
 import React from 'react'
 
 
-const ThemeSwitcher = () => {
+const ThemeSwitcher = (props) => {
+  const {
+    Component, 
+    slots, 
+    isSelected, 
+    getBaseProps, 
+    getInputProps, 
+    getWrapperProps
+  } = useSwitch(props);
+
     const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
@@ -17,10 +27,25 @@ const ThemeSwitcher = () => {
   if(!mounted) return <div className="bg-red-600 px-1">Not Mounted</div>
 
   return (
-    <div>
-      The current theme is: {theme}
-      <button onClick={() => setTheme('light')} className="border-2 rounded-xl mx-1">Light Mode</button>
-      <button onClick={() => setTheme('dark')} className="border-2 rounded-xl mx-1">Dark Mode</button>
+    <div className="flex flex-col gap-2">
+      <Component {...getBaseProps()}>
+          <VisuallyHidden>
+            <input {...getInputProps()} />
+          </VisuallyHidden>
+          <div
+            {...getWrapperProps()}
+            className={slots.wrapper({
+              class: [
+                "w-8 h-8",
+                "flex items-center justify-center",
+                "rounded-lg bg-default-100 hover:bg-default-200",
+              ],
+            })}
+          >
+            {isSelected ? <p>hi</p> : <p>bye</p>}
+          </div>
+      </Component>
+      <p className="text-default-500 select-none">Lights: {isSelected ? "on" : "off"}</p>
     </div>
   )
 }
