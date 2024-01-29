@@ -42,7 +42,7 @@ const ThemeSwitcher = (props) => {
               ],
             })}
           >
-            {isSelected ? <button className="absolute border-2 border-red-500 top-0 z-10" onClick={() => setTheme('light')}>Light Mode</button> : <button className="absolute border-2 border-red-500 top-0" onClick={() => setTheme('dark')}>Dark Mode</button>}
+            {isSelected ? <button className="absolute border-2 border-red-500 top-0 z-10" onClick={() => setTheme('light')}>Light Mode</button> : <button className="absolute border-2 border-red-500 top-0 z-10" onClick={() => setTheme('dark')}>Dark Mode</button>}
           </div>
       </Component>
     </div>
