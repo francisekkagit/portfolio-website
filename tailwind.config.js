@@ -38,6 +38,7 @@ module.exports = {
           background: "#FFFFFF",
           foreground: "#000000",
           focus: "#28c900",
+          dropDownc: "#E5E4E2",
           tileBack: "#FFDD33"
         }
       },
@@ -46,6 +47,7 @@ module.exports = {
           background: "#000000",
           foreground: "#FFFFFF",
           focus: "#ab00c9",
+          dropDownc: "#E5E4E2",
           tileBack: "#FF7733"
         }
       }
