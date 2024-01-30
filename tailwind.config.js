@@ -39,7 +39,8 @@ module.exports = {
           foreground: "#000000",
           focus: "#28c900",
           dropDown: "#E5E4E2",
-          tileBack: "#FFDD33"
+          textHighlight: "black",
+
         }
       },
       "dark": {
@@ -48,7 +49,7 @@ module.exports = {
           foreground: "#FFFFFF",
           focus: "#ab00c9",
           dropDown: "#212121",
-          tileBack: "#FF7733"
+          textHighlight: "white",
         }
       }
     }
