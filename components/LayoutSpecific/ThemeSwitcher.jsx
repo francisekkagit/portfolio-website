@@ -59,7 +59,7 @@ const ThemeSwitcher = (props) => {
               class: [
                 "w-[26px] h-[26px]",
                 "flex items-center justify-center",
-                "rounded-none bg-default-100 hover:bg-default-200 p-0 bg-transparent",
+                "rounded-none p-0 bg-transparent",
               ],
             })}
             onClick={switchTheme}
