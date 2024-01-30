@@ -45,8 +45,6 @@ const Navbar = () => {
             </Link>
         </div>
 
-        
-
         {/* Dropdown Menu Mobile*/}
         <div className='sm:hidden rowCenter gap-4'>
             <ThemeSwitcher/>
