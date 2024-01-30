@@ -21,7 +21,7 @@ const OverviewTile = () => {
                     />
                     <div className="flex flex-col">
                         <p className="text-md">Arizona State University</p>
-                        <p className="text-small text-default-500">Bachelor's Degree</p>
+                        <p className="text-small text-default-500">Bachelor&#39;s Degree</p>
                     </div>
                 </CardHeader>
       
@@ -127,7 +127,7 @@ const OverviewTile = () => {
                 <CardBody className='text-default-500'>
                     <p><span className='text-textHighlight'>AI Model Training</span> with NVIDIA Jetson Nanos through Live Video Feeds captured by CSI Cameras.</p>
                     <p>Completion of the Bit Space Development Computer Vision Project.</p>
-                    <p><span className='text-textHighlight'>Machine Learning Certifications through NVIDIA’s Deep Learning Institute</span> in Model Building with Image Classification and implementation of the Jetson Nano.</p>
+                    <p><span className='text-textHighlight'>Machine Learning Certifications through NVIDIA&#39;s Deep Learning Institute</span> in Model Building with Image Classification and implementation of the Jetson Nano.</p>
                     <p>Repository and Collaboration Tools such as <span className='text-textHighlight'>Git, Asana, and Slack</span>.</p>
                 </CardBody>
                 
