@@ -59,7 +59,7 @@ const ThemeSwitcher = (props) => {
               class: [
                 "w-[26px] h-[26px]",
                 "flex items-center justify-center",
-                "rounded-none p-0 bg-transparent",
+                "rounded-none p-0 bg-transparent group-data-[selected=true]:bg-transparent",
               ],
             })}
             onClick={switchTheme}
