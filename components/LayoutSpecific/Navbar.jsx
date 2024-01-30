@@ -48,7 +48,8 @@ const Navbar = () => {
         
 
         {/* Dropdown Menu Mobile*/}
-        <div className='sm:hidden'>
+        <div className='sm:hidden rowCenter gap-4'>
+            <ThemeSwitcher/>
             <Dropdown backdrop="blur" className='bg-website-20'>
                 <DropdownTrigger>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
