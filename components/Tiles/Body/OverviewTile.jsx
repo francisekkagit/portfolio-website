@@ -5,7 +5,7 @@ import LatinText from '@/components/LatinText';
 
 const OverviewTile = () => {
   return (
-    <section id='Overview' className='flex flex-col sm:flex-row items-center gap-5 justify-around mx-5'>
+    <section id='Overview' className='flex flex-col sm:flex-row items-center gap-5 justify-around mx-5 mt-2 md:mt-0'>
         
         <div className='flex flex-col gap-5 w-full sm:max-w-[400px] text-center'>
             <h1 className='regular-40 md:regular-64'>About Me</h1>
