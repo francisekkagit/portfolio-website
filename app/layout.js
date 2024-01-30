@@ -18,8 +18,6 @@ export default function RootLayout({ children }) {
             {children}
           </NextThemesProvider>
         </NextUIProvider>
-          
-  
       </body>
     </html>
   )

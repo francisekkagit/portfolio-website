@@ -1,8 +1,7 @@
-import HeroTile from '@/components/Tiles/HeroTile'
-import HeroTileV2 from '@/components/Tiles/HeroTileV2'
-import OverviewTile from '@/components/Tiles/OverviewTile'
-import SkillsTile from '@/components/Tiles/SkillsTile'
-import Image from 'next/image'
+import HeroTile from '@/components/Tiles/Heros/HeroTile'
+import HeroTileV2 from '@/components/Tiles/Heros/HeroTileV2'
+import SkillsTile from '@/components/Tiles/Body/SkillsTile'
+import OverviewTile from '@/components/Tiles/Body/OverviewTile'
 
 export const metadata = {
   title: 'Francis Ekka',
