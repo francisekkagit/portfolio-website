@@ -3,7 +3,7 @@ import LatinText from '../LatinText'
 
 const OverviewTile = () => {
   return (
-    <section id='Overview'>
+    <section id='Overview' className='bg-tileBack'>
         Overview
         <LatinText/>
     </section>
