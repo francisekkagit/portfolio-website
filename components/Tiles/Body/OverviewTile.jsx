@@ -101,10 +101,11 @@ const OverviewTile = () => {
                 
                 <CardFooter>
                     <Link
+                    isExternal
                     showAnchorIcon
-                    href="/About"
+                    href="https://www.diabloescapes.com/"
                     >
-                        See More of My Experience
+                        Visit Diabloescapes.com
                     </Link>
                 </CardFooter>
             </Card>
