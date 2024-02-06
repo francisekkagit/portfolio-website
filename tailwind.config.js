@@ -35,6 +35,7 @@ module.exports = {
           focus: "#28c900",
           dropDown: "#E5E4E2",
           textHighlight: "black",
+          panelDif: "#d7d7d7",
           panelSub: "#EEEEEF"
 
         }
@@ -46,6 +47,7 @@ module.exports = {
           focus: "#ab00c9",
           dropDown: "#212121",
           textHighlight: "white",
+          panelDif: "#0f0f11",
           panelSub: "#27272A"
         }
       }

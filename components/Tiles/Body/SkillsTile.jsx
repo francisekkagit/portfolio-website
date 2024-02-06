@@ -146,6 +146,15 @@ const SkillsTile = () => {
             </div>
           </CardBody>
         </Card>
+
+        <Card className='bg-panelDif sm:hidden'>
+          <CardHeader className='flex justify-center text-center'>Quick Learner!</CardHeader>
+          <CardBody>
+            <div className=''>
+              <p>Looking for a Developer? Unencumbered by years of corporate exprience, I bring a unique perspective and dive headfirst into development!</p>
+            </div>
+          </CardBody>
+        </Card>
       </div>
 
     </section>
