@@ -11,7 +11,7 @@ const Navbar = () => {
 
         {/* Main Menu Desktop */}
         <div className='rowCenter px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>
-            <Link href="/About"><button className='btn_nav'>About</button></Link>
+            <Link href="/#Overview"><button className='btn_nav'>About</button></Link>
             <Link href="/Projects"><button className='btn_nav'>Projects</button></Link>
             <Link href="/#Skills"><button className='btn_nav'>Skills</button></Link>
         </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                     </svg>
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions" className=''>
-                    <DropdownItem key="About" className='p-0'><Link href="/About" className="link_dropdown">About</Link></DropdownItem>
+                    <DropdownItem key="About" className='p-0'><Link href="/#Overview" className="link_dropdown">About</Link></DropdownItem>
                     <DropdownItem key="Projects" className='p-0'><Link href="/Projects" className="link_dropdown">Projects</Link></DropdownItem>
                     <DropdownItem key="Skills" className='p-0'><Link href="/#Skills" className="link_dropdown">Skills</Link></DropdownItem>
                     <DropdownItem key="Socials" className='p-0'>

@@ -13,11 +13,6 @@ module.exports = {
         screenNav:'70vh',
       },
       colors: {
-        website: {
-          10: "#081b29",
-          20: "#122e43",
-
-        },
         websiteHighlight: {
           10: "#00abf1",
           20: "#0275a3",
@@ -40,6 +35,7 @@ module.exports = {
           focus: "#28c900",
           dropDown: "#E5E4E2",
           textHighlight: "black",
+          panelSub: "#EEEEEF"
 
         }
       },
@@ -50,6 +46,7 @@ module.exports = {
           focus: "#ab00c9",
           dropDown: "#212121",
           textHighlight: "white",
+          panelSub: "#27272A"
         }
       }
     }

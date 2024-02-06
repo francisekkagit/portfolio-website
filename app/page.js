@@ -1,4 +1,3 @@
-import HeroTile from '@/components/Tiles/Heros/HeroTile'
 import HeroTileV2 from '@/components/Tiles/Heros/HeroTileV2'
 import SkillsTile from '@/components/Tiles/Body/SkillsTile'
 import OverviewTile from '@/components/Tiles/Body/OverviewTile'
