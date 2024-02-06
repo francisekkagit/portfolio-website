@@ -7,7 +7,10 @@ const Projects = () => {
       <Card className='max-w-[90vw]'>
         <CardBody className='flex flex-col md:flex-row gap-4 max-md:items-center'>
           
-          <div className='shrink-0'><Image alt="nextui logo" height={209} radius="sm" src="/component_imgs/portfolioPreview.png" width={400}/></div>
+          <div className='shrink-0 relative'>
+            <Image alt="nextui logo" height={209} radius="sm" src="/component_imgs/portfolioPreview.png" width={400}/>
+            <div className='absolute top-4 right-0'><Image alt="nextui logo" height={202} radius="sm" src="/component_imgs/portfolioPreviewM.png" width={102}/></div>
+          </div>
           
           <div className='flex flex-col gap-2 min-w-0'>
             <p className='text-lg'>Portfolio Website</p>
