@@ -100,8 +100,8 @@ const SkillsTile = () => {
   ]
 
   return (
-    <section id='Skills' className='mx-5 my-10 flex justify-center'>
-      
+    <section id='Skills' className='mx-5 my-8 flex flex-col justify-center items-center'>
+      <h1 className='regular-40 md:regular-64 mb-2'>My Skills</h1>
       <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5'>
         <Card className='col-span-2'>
           <CardHeader className='flex justify-center text-center'>Web Developement</CardHeader>

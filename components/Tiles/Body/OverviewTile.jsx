@@ -31,14 +31,14 @@ const OverviewTile = () => {
                     <p>GPA: <span className='text-textHighlight'>3.48</span> Cum Laude.</p>
                 </CardBody>
                 
-                <CardFooter className='flex justify-center'>
+                {/*<CardFooter className='flex justify-center'>
                     <Link
                     showAnchorIcon
                     href="/About"
                     >
                         See More of My Education
                     </Link>
-                </CardFooter>
+                </CardFooter>*/}
             </Card>
             {/* AWS Certification Card */}
             <Card className="w-full">
@@ -132,14 +132,14 @@ const OverviewTile = () => {
                     <p>Repository and Collaboration Tools such as <span className='text-textHighlight'>Git, Asana, and Slack</span>.</p>
                 </CardBody>
                 
-                <CardFooter>
+                {/*<CardFooter>
                     <Link
                     showAnchorIcon
                     href="/About"
                     >
                         See More of My Experience
                     </Link>
-                </CardFooter>
+                </CardFooter>*/}
             </Card>
         </div>
 

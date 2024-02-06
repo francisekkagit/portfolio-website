@@ -57,13 +57,13 @@ const Projects = () => {
             <p className='text-lg'>More Projects Being Added!</p>
             <p className='text-md text-default-500'>This website is under construction and I&#39;m adding new components and features everyday! My projects that are yet to be updated here include applications developed in Swift and various games coded in Python and C++. I also have projects from my time obtaining my Bachelor&#39;s Degree in Computer Science relating to Data Structures, Algorithms, and Object Oriented Programming.</p>
             <div className='flex flex-row gap-2 text-sm mt-2 flex-wrap'>
-              <Chip variant='flat'>C / C++</Chip>
-              <Chip variant='flat'>Python</Chip>
-              <Chip variant='flat'>Swift</Chip>
-              <Chip variant='flat'>Game Development</Chip>
-              <Chip variant='flat'>Data Structures</Chip>
-              <Chip variant='flat'>Algorithms</Chip>
-              <Chip variant='flat'>OOP</Chip>
+              <Chip variant='faded'>C / C++</Chip>
+              <Chip variant='faded'>Python</Chip>
+              <Chip variant='faded'>Swift</Chip>
+              <Chip variant='faded'>Game Development</Chip>
+              <Chip variant='faded'>Data Structures</Chip>
+              <Chip variant='faded'>Algorithms</Chip>
+              <Chip variant='faded'>OOP</Chip>
             </div> 
           </div>
           
