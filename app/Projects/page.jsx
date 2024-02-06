@@ -36,7 +36,7 @@ const Projects = () => {
           
           <div className='flex flex-col gap-2 min-w-0'>
             <p className='text-lg'>BSDXR Computer Vision Project</p>
-            <p className='text-md text-default-500'>Designed and developed website using a Next.js, NextUI, and TailwindCSS frontend which is supported by a Node.js and Express.js backend. Implemented continuous integration through Github and deployed through Vercel.</p>
+            <p className='text-md text-default-500'>Engineered an AI system capable of recognizing household items in real-time through live video feeds. Integration with NVIDIA’s Jetson Nanos for image classification and relayed statistics to a dashboard created using Axure RP.</p>
             <div className='flex flex-row gap-2 text-sm mt-2 flex-wrap'>
               <Chip variant='flat'>Machine Learning</Chip>
               <Chip variant='flat'>Image Classification</Chip>
