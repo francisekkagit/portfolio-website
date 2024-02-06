@@ -55,7 +55,7 @@ const Projects = () => {
           
           <div className='flex flex-col gap-2 min-w-0'>
             <p className='text-lg'>More Projects Being Added!</p>
-            <p className='text-md text-default-500'>This website is under construction and I'm adding new components and features everyday! My projects that are yet to be updated here include applications developed in Swift and various games coded in Python and C++. I also have projects from my time obtaining my Bachelor's Degree in Computer Science relating to Data Structures, Algorithms, and Object Oriented Programming.</p>
+            <p className='text-md text-default-500'>This website is under construction and I'm adding new components and features everyday! My projects that are yet to be updated here include applications developed in Swift and various games coded in Python and C++. I also have projects from my time obtaining my Bachelor&#39;s Degree in Computer Science relating to Data Structures, Algorithms, and Object Oriented Programming.</p>
             <div className='flex flex-row gap-2 text-sm mt-2 flex-wrap'>
               <Chip variant='flat'>C / C++</Chip>
               <Chip variant='flat'>Python</Chip>
