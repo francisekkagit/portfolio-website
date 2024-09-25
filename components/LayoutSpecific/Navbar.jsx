@@ -22,7 +22,7 @@ const Navbar = () => {
             <ThemeSwitcher/>
             
             {/* LinkedIn */}
-            <Link href="https://www.linkedin.com/in/francisekka/">
+            <Link href="https://www.linkedin.com/in/francisekka/" target="_blank">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="btn_nav_social h-5 w-5"
@@ -33,7 +33,7 @@ const Navbar = () => {
                 </svg>
             </Link>
             {/* GitHub */}
-            <Link href="https://github.com/francisekkagit">
+            <Link href="https://github.com/francisekkagit" target="_blank">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="btn_nav_social h-5 w-5"
@@ -61,7 +61,7 @@ const Navbar = () => {
                     <DropdownItem key="Socials" className='p-0'>
                         <div className='flex flex-row gap-3 justify-center py-2'>
                             {/* LinkedIn */}
-                            <Link href="https://www.linkedin.com/in/francisekka/">
+                            <Link href="https://www.linkedin.com/in/francisekka/" target="_blank">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="btn_nav_social h-5 w-5"
@@ -72,7 +72,7 @@ const Navbar = () => {
                                 </svg>
                             </Link>
                             {/* GitHub */}
-                            <Link href="https://github.com/francisekkagit">
+                            <Link href="https://github.com/francisekkagit" target="_blank">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="btn_nav_social h-5 w-5"
@@ -83,7 +83,7 @@ const Navbar = () => {
                                 </svg>
                             </Link>
                             {/* Facebook */}
-                            <Link href="https://www.facebook.com/francisxekka/">
+                            <Link href="https://www.facebook.com/francisxekka/" target="_blank">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="btn_nav_social h-5 w-5"
@@ -94,7 +94,7 @@ const Navbar = () => {
                                 </svg>
                             </Link>
                             {/* Instagram */}
-                            <Link href="https://www.instagram.com/francisxekka/">
+                            <Link href="https://www.instagram.com/francisxekka/" target="_blank">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     class="btn_nav_social h-5 w-5"
