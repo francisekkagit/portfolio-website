@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import Link from 'next/link'
 import {React, Fragment} from "react";
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
@@ -46,13 +46,13 @@ const Navbar = () => {
         </div>
 
         {/* Dropdown Menu Mobile*/}
-        <div className='sm:hidden rowCenter gap-4'>
+        <div className='sm:hidden rowCenter gap-4 border-2'>
             <ThemeSwitcher/>
             <Dropdown backdrop="blur" className='bg-dropDown'>
-                <DropdownTrigger>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                <DropdownTrigger onClick={console.log('THING OPENED!!!!!')}>
+                    <p>hey</p>{/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                    </svg>
+                    </svg> */}
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions" className=''>
                     <DropdownItem key="About" className='p-0'><Link href="/#Overview" className="link_dropdown">About</Link></DropdownItem>
