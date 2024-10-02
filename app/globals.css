@@ -8,14 +8,10 @@ html{scroll-behavior:smooth;}
 
 body{
 }
-.swiper{
-  margin-left: 0px;
-  margin-right: 0px;
-}
+
 section{
   scroll-margin-top: 64px;
 }
-
 
 .YellowTail{
   font-family: "Yellowtail", cursive;
@@ -23,16 +19,21 @@ section{
   font-style: normal;
 }
 
+
+
 @layer utilities {
   /* BUTTONS */
   .btn_nav {
-    @apply px-5 rounded-xl regular-18 hover:text-websiteHighlight-10 transition-all duration-200;
+    @apply px-5 rounded-xl regular-18 hover:text-websiteHighlight-10 transition-all duration-150;
   }
   .btn_nav_social {
-    @apply hover:text-websiteHighlight-10 transition-all duration-200;
+    @apply hover:text-websiteHighlight-10 transition-all duration-150;
   }
   .link_dropdown {
     @apply regular-16 flex justify-center py-2 rounded-lg;
+  }
+  .custom_dropdown_item{
+    @apply hover:bg-nav_drop_down ease-in-out duration-150;
   }
 
   /* COMPONENTS & PAGES */

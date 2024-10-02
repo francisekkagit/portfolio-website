@@ -7,6 +7,7 @@ import ThemeSwitcher from './ThemeSwitcher';
 const Navbar = () => {
   return (
     <div className='padding-nav flex items-center justify-between sticky top-0 w-full bg-transparent backdrop-blur-sm z-30 drop-shadow-2xl max-h-[64px]'>
+        
         <Link href="/" className=''><h1 className='YellowTail leading-none regular-40'>FE</h1></Link>
 
         {/* Main Menu Desktop */}
@@ -45,22 +46,20 @@ const Navbar = () => {
             </Link>
         </div>
 
-
-
         {/* Dropdown Menu Mobile*/}
         <div className='sm:hidden rowCenter gap-4'>
             <ThemeSwitcher/>
-            <Dropdown backdrop="blur" className='bg-dropDown'>
+            <Dropdown backdrop="blur" className=''>
                 <DropdownTrigger>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
                     </svg>
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions" className=''>
-                    <DropdownItem key="About" className='p-0'><Link href="/" className="link_dropdown">Link1</Link></DropdownItem>
-                    <DropdownItem key="Projects" className='p-0'><Link href="/" className="link_dropdown">Link2</Link></DropdownItem>
-                    <DropdownItem key="Skills" className='p-0'><Link href="/" className="link_dropdown">Link3</Link></DropdownItem>
-                    <DropdownItem key="Socials" className='p-0'>
+                    <DropdownItem key="About" className='p-0 custom_dropdown_item' color=''><Link href="/" className="link_dropdown">Link1</Link></DropdownItem>
+                    <DropdownItem key="Projects" className='p-0 custom_dropdown_item' color=''><Link href="/" className="link_dropdown">Link2</Link></DropdownItem>
+                    <DropdownItem key="Skills" className='p-0 custom_dropdown_item' color=''><Link href="/" className="link_dropdown">Link3</Link></DropdownItem>
+                    <DropdownItem key="Socials" className='p-0 custom_dropdown_item' color=''>
                         <div className='flex flex-row gap-3 justify-center py-2'>
                             {/* LinkedIn */}
                             <Link href="https://www.linkedin.com/in/francisekka/" target="_blank">
@@ -112,6 +111,7 @@ const Navbar = () => {
                 </DropdownMenu>
             </Dropdown>
         </div>
+
     </div>
   )
 }
