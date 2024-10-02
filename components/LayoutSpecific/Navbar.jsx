@@ -6,14 +6,14 @@ import ThemeSwitcher from './ThemeSwitcher';
 
 const Navbar = () => {
   return (
-    <div className='padding-nav rowCenter justify-between sticky top-0 w-full bg-transparent backdrop-blur-sm z-30 drop-shadow-2xl'>
-        <Link href="/"><h1>Logo</h1></Link>
+    <div className='padding-nav flex items-center justify-between sticky top-0 w-full bg-transparent backdrop-blur-sm z-30 drop-shadow-2xl max-h-[64px]'>
+        <Link href="/" className=''><h1 className='YellowTail leading-none regular-40'>FE</h1></Link>
 
         {/* Main Menu Desktop */}
         <div className='rowCenter px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>
-            <Link href="/#Overview"><button className='btn_nav'>About</button></Link>
-            <Link href="/Projects"><button className='btn_nav'>Projects</button></Link>
-            <Link href="/#Skills"><button className='btn_nav'>Skills</button></Link>
+            <Link href="/"><button className='btn_nav'>Link1</button></Link>
+            <Link href="/"><button className='btn_nav'>Link2</button></Link>
+            <Link href="/"><button className='btn_nav'>Link3</button></Link>
         </div>
 
         {/* ThemeSwitcher + Social Icons Desktop */}
@@ -45,19 +45,21 @@ const Navbar = () => {
             </Link>
         </div>
 
+
+
         {/* Dropdown Menu Mobile*/}
-        <div className='sm:hidden rowCenter gap-4 border-2'>
+        <div className='sm:hidden rowCenter gap-4'>
             <ThemeSwitcher/>
             <Dropdown backdrop="blur" className='bg-dropDown'>
-                <DropdownTrigger onClick={console.log('THING OPENED!!!!!')}>
-                    <p>hey</p>{/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                <DropdownTrigger>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-                    </svg> */}
+                    </svg>
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions" className=''>
-                    <DropdownItem key="About" className='p-0'><Link href="/#Overview" className="link_dropdown">About</Link></DropdownItem>
-                    <DropdownItem key="Projects" className='p-0'><Link href="/Projects" className="link_dropdown">Projects</Link></DropdownItem>
-                    <DropdownItem key="Skills" className='p-0'><Link href="/#Skills" className="link_dropdown">Skills</Link></DropdownItem>
+                    <DropdownItem key="About" className='p-0'><Link href="/" className="link_dropdown">Link1</Link></DropdownItem>
+                    <DropdownItem key="Projects" className='p-0'><Link href="/" className="link_dropdown">Link2</Link></DropdownItem>
+                    <DropdownItem key="Skills" className='p-0'><Link href="/" className="link_dropdown">Link3</Link></DropdownItem>
                     <DropdownItem key="Socials" className='p-0'>
                         <div className='flex flex-row gap-3 justify-center py-2'>
                             {/* LinkedIn */}

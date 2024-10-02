@@ -48,7 +48,7 @@ const ThemeSwitcher = (props) => {
   if(!mounted) return <div className="bg-red-600 px-1">Not Mounted</div>
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex">
       <Component {...getBaseProps()}>
           <VisuallyHidden>
             <input {...getInputProps()} />
