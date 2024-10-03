@@ -1,3 +1,4 @@
+import UnderConstruction from "@/components/Tiles/Body/UnderConstruction"
 
 export const metadata = {
   title: 'Francis Ekka',
@@ -7,6 +8,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div className='w-full'>
+      <UnderConstruction/>
     </div>
   )
 }
