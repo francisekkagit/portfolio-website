@@ -31,14 +31,18 @@ module.exports = {
         colors:{
           background: "#FFFFFF",
           foreground: "#000000",
-          nav_drop_down:"#eaecee"
+          nav_drop_down:"#eaecee",
+          border_tile: "#eaecee",
+          background_tile: "#FFFFFF"
         }
       },
       "dark": {
         colors:{
-          background: "#000000",
+          background: "#15202b",
           foreground: "#FFFFFF",
-          nav_drop_down:"#808b96"
+          nav_drop_down:"#22303c",
+          border_tile: "#192734",
+          background_tile: "#192734"
         }
       }
     }
