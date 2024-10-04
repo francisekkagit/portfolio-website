@@ -6,7 +6,7 @@ const UnderConstruction = () => {
         <div className='w-full sm:w-[50%] flex flex-col gap-3 p-3 sm:gap-5 sm:p-3 items-center justify-center text-center textShadow'>
             <p className='RedHat font-semibold text-[40px]'>Under Construction</p>
             <p>Welcome! Stay tuned for updates as I handcraft this space to highlight my projects, experience, and passion for web development.</p>
-            <p>Feel free to reach out to me for collaborations or inquires. I'd love to connect!</p>
+            <p>Feel free to reach out to me for collaborations or inquires. I&apos;d love to connect!</p>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8 max-sm:rotate-90 ease-in-out duration-150">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg>
