@@ -29,20 +29,18 @@ module.exports = {
     themes: {
       "light": {
         colors:{
-          background: "#FFFFFF",
-          foreground: "#000000",
-          nav_drop_down:"#eaecee",
-          border_tile: "#eaecee",
-          background_tile: "#FFFFFF"
+          background: "#F6F6F6",         //Gray-200
+          foreground: "#000000",         //Black
+          nav_dd_hover:"#ECECEC",        //Gray-400
+          background_tile: "#FFFFFF"     //White
         }
       },
       "dark": {
         colors:{
-          background: "#15202b",
-          foreground: "#FFFFFF",
-          nav_drop_down:"#22303c",
-          border_tile: "#192734",
-          background_tile: "#192734"
+          background: "#15202b",         //Blue-800
+          foreground: "#FFFFFF",         //White
+          nav_dd_hover:"#22303c",        //Blue-500
+          background_tile: "#192734"     //Blue-600
         }
       }
     }

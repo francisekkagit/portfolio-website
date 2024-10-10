@@ -5,6 +5,14 @@
 
 html{scroll-behavior:smooth;}
 
+:root {
+  --text-shadow-header: 0px 5px 10px rgba(0,0,0,0.3);
+}
+
+.dark {
+  --text-shadow-header: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
 body{
 }
 
@@ -21,8 +29,8 @@ section{
   font-family: "Red Hat Display", sans-serif;
   font-style: normal;
 }
-.textShadow{
-  text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.449);
+.textShadow-header{
+  text-shadow: var(--text-shadow-header);
 }
 
 
@@ -39,7 +47,7 @@ section{
     @apply regular-16 flex justify-center py-2 rounded-lg;
   }
   .custom_dropdown_item{
-    @apply hover:bg-nav_drop_down ease-in-out duration-150;
+    @apply hover:bg-nav_dd_hover ease-in-out duration-150;
   }
 
   /* COMPONENTS & PAGES */
