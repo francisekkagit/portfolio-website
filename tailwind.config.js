@@ -9,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        'max-h-500': { 'raw': '(max-height: 500px)' },
+        'max-h-600': { 'raw': '(max-height: 600px)' },
+      },
       colors: {
         websiteHighlight: {
           10: "#00abf1",
