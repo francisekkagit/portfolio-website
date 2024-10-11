@@ -6,7 +6,7 @@ import ThemeSwitcher from './ThemeSwitcher';
 
 const Navbar = () => {
   return (
-    <div className='padding-nav flex items-center justify-between sticky top-0 w-full bg-transparent backdrop-blur-sm z-30 drop-shadow-2xl max-h-[64px]'>
+    <div className='padding-nav flex items-center justify-between sticky top-0 w-full bg-transparent backdrop-blur-sm z-30 max-h-[64px]'>
         
         <Link href="/" className=''><h1 className='YellowTail leading-none regular-40'>FE</h1></Link>
 

@@ -1,9 +1,9 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Hero1 = () => {
   return (
-    <div className='h-[50vh] flex justify-center items-center p-3 sm:p-6 md:p-10 transition-all duration-300'>
-      <div className='bg-background_tile max-tile h-full rounded-xl shadow-lg flex flex-col sm:flex-row justify-center items-center overflow-hidden'>
+      <div className='h-[50vh] bg-background_tile max-tile rounded-xl shadow-lg flex flex-col sm:flex-row justify-center items-center overflow-hidden'>
         <div className='flex flex-col gap-3 p-7 justify-center items-center text-center h-[45%] sm:h-full sm:w-[60%] leading-none RedHat overflow-hidden fullHeightSmall'>
           <span className='text-[20px] min-[500px]:text-[24px] font-light transition-all duration-300'>Francis Ekka</span>
           <span className='text-[32px] min-[500px]:text-[42px] font-semibold textShadow-header transition-all duration-300'>Full Stack Developer</span>
@@ -11,12 +11,10 @@ const Hero1 = () => {
         </div>
         <div className='w-full h-[55%] sm:w-[40%] sm:h-full flex justify-center items-center p-7 overflow-hidden heroHiddenSmall'>
           <div className='aspect-[1/1] max-h-full rounded-full shadow-md'>
-            <img src='/component_imgs/francisProfile1.png' alt='francis_ekka' width={2979} height={2979} className=''/>
+            <Image src='/component_imgs/francisProfile1.png' width={2979} height={2979} alt='francis_ekka'/>
           </div>
-          
         </div>
       </div>
-    </div>
   )
 }
 
