@@ -7,7 +7,7 @@ const Hero1 = () => {
         <div className='flex flex-col gap-3 p-7 justify-center items-center text-center h-[45%] sm:h-full sm:w-[60%] leading-none RedHat overflow-hidden fullHeightSmall'>
           <span className='text-[20px] min-[500px]:text-[24px] font-light transition-all duration-300'>Francis Ekka</span>
           <span className='text-[32px] min-[500px]:text-[42px] font-semibold textShadow-header transition-all duration-300'>Full Stack Developer</span>
-          <span className='text-[18px] min-[500px]:text-[20px] font-extralight transition-all duration-300'>Located in Danville, CA | <span className='italic text-green-500'>Open to Work</span></span>
+          <span className='text-[18px] min-[500px]:text-[20px] font-extralight transition-all duration-300'>Located in Danville, CA | <span className='italic text-warning'>Under Construction</span></span>
         </div>
         <div className='w-full h-[55%] sm:w-[40%] sm:h-full flex justify-center items-center p-7 overflow-hidden heroHiddenSmall'>
           <div className='aspect-[1/1] max-h-full rounded-full shadow-md'>
