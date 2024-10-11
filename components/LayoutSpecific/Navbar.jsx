@@ -11,14 +11,14 @@ const Navbar = () => {
         <Link href="/" className=''><h1 className='YellowTail leading-none regular-40'>FE</h1></Link>
 
         {/* Main Menu Desktop */}
-        <div className='rowCenter px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>
+        <div className='rowCenterV px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>
             <Link href="/"><button className='btn_nav'>Link1</button></Link>
             <Link href="/"><button className='btn_nav'>Link2</button></Link>
             <Link href="/"><button className='btn_nav'>Link3</button></Link>
         </div>
 
         {/* ThemeSwitcher + Social Icons Desktop */}
-        <div className='rowCenter px-3 gap-4 max-sm:hidden'>
+        <div className='rowCenterV px-3 gap-4 max-sm:hidden'>
             
             <ThemeSwitcher/>
             
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
 
         {/* Dropdown Menu Mobile*/}
-        <div className='sm:hidden rowCenter gap-4'>
+        <div className='sm:hidden rowCenterV gap-4'>
             <ThemeSwitcher/>
             <Dropdown backdrop="blur" className='bg-background_tile'>
                 <DropdownTrigger>

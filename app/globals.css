@@ -6,7 +6,7 @@
 html{scroll-behavior:smooth;}
 
 :root {
-  --text-shadow-header: 0px 5px 10px rgba(0,0,0,0.3);
+  --text-shadow-header: 0px 5px 10px rgba(0,0,0,0.2);
 }
 
 .dark {
@@ -52,15 +52,22 @@ section{
 
   /* COMPONENTS & PAGES */
   .max-container {
-    @apply mx-auto max-w-[2500px];
+    @apply mx-auto max-w-[2000px];
   }
+  .max-tile {
+    @apply w-full max-w-[1200px];
+  }
+  
   .padding-nav{
     @apply 
     px-2 sm:px-3 md:px-4 lg:px-6
     py-2;
   }
-  .rowCenter {
+  .rowCenterV {
     @apply flex flex-row items-center;
+  }
+  .rowCenterH {
+    @apply flex flex-row justify-center;
   }
   .h-screenNav{
     @apply h-[calc(100vh-64px)];
