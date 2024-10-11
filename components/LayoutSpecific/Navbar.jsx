@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link href="/" className=''><h1 className='YellowTail leading-none regular-40'>FE</h1></Link>
 
         {/* Main Menu Desktop */}
-        <div className='rowCenterV px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-500'>
+        <div className='rowCenterV px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-300'>
             <Link href="/"><button className='btn_nav'>Link1</button></Link>
             <Link href="/"><button className='btn_nav'>Link2</button></Link>
             <Link href="/"><button className='btn_nav'>Link3</button></Link>

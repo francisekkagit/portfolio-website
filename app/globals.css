@@ -35,10 +35,10 @@ section{
 
 
 @media (max-height: 500px) {
-    .hiddenSmall{
+    .heroHiddenSmall{
       display: none;
     }
-    .fullHeightSmall{
+    .heroFullHeightSmall{
       height: 100%;
     }
 }
@@ -65,7 +65,7 @@ section{
     @apply mx-auto max-w-[2000px];
   }
   .max-tile {
-    @apply w-full max-w-[1200px];
+    @apply w-full max-w-[1500px];
   }
   
   .padding-nav{
