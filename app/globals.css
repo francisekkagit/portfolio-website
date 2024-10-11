@@ -6,11 +6,11 @@
 html{scroll-behavior:smooth;}
 
 :root {
-  --text-shadow-header: 0px 5px 10px rgba(0,0,0,0.2);
+  --text-shadow-header: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .dark {
-  --text-shadow-header: 0px 5px 10px rgba(0,0,0,0.5);
+  --text-shadow-header: 0px 4px 6px rgba(0,0,0,0.5);
 }
 
 body{
@@ -68,9 +68,6 @@ section{
   }
   .rowCenterH {
     @apply flex flex-row justify-center;
-  }
-  .h-screenNav{
-    @apply h-[calc(100vh-64px)];
   }
   
   /* FONTS */

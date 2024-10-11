@@ -9,8 +9,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      height:{
-      },
       colors: {
         websiteHighlight: {
           10: "#00abf1",
@@ -29,7 +27,7 @@ module.exports = {
     themes: {
       "light": {
         colors:{
-          background: "#F6F6F6",         //Gray-200
+          background: "#FAFAFA",         //Gray-200
           foreground: "#000000",         //Black
           nav_dd_hover:"#ECECEC",        //Gray-400
           background_tile: "#FFFFFF"     //White

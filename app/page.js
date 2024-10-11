@@ -9,8 +9,8 @@ export const metadata = {
 export default function Home() {
   return (
     <div className='w-full'>
-      <UnderConstruction/>
-      {/* <Hero1/> */}
+      {/* <UnderConstruction/> */}
+      <Hero1/>
     </div>
   )
 }
