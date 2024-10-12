@@ -29,6 +29,7 @@ module.exports = {
         colors:{
           background: "#FAFAFA",         //Gray-200
           foreground: "#000000",         //Black
+          subtext: "#757575",
           nav_dd_hover:"#ECECEC",        //Gray-400
           background_tile: "#FFFFFF"     //White
         }
@@ -37,6 +38,7 @@ module.exports = {
         colors:{
           background: "#15202b",         //Blue-800
           foreground: "#FFFFFF",         //White
+          subtext: "#C0C0C0",
           nav_dd_hover:"#22303c",        //Blue-500
           background_tile: "#192734"     //Blue-600
         }

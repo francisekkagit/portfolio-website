@@ -34,6 +34,8 @@ section{
 }
 
 
+
+
 @media (max-height: 500px) {
     .heroHiddenSmall{
       display: none;
@@ -43,6 +45,20 @@ section{
     }
 }
 
+@keyframes slideUp {
+  0% {
+    transform: translateY(15px); /* Start with the element 10px lower */
+    opacity: 0;                  /* The element is invisible (fully transparent) */
+  }
+  100% {
+    transform: translateY(0);     /* End with the element at its original position */
+    opacity: 1;                  /* The element is fully visible */
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.7s ease-in-out forwards;
+}
 
 
 @layer utilities {
