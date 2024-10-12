@@ -31,7 +31,7 @@ const EducationList = () => {
         </div>
         <div className='bg-subtile p-3 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
-                <Image src='/avatars/deepLearningLogo.png' width={512} height={512} alt='soemthig' className='w-[64px]'/>
+                <Image src='/avatars/dlLogo.png' width={512} height={512} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col'>
                     <span className='font-semibold'>DeepLearning.AI</span>
                     <span className='text-sm text-subtext'>September 2024</span>
