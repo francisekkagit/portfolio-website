@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className='w-full flex flex-col items-center pb-5 gap-7 px-3 sm:px-6 sm:py-5 lg:px-10 transition-all duration-300'>
+    <div className='w-full flex flex-col items-center pb-5 gap-7 px-3 sm:px-6 lg:px-10 transition-all duration-300'>
       {/* <UnderConstruction/> */}
       <Hero1/>
       <AboutMe/>

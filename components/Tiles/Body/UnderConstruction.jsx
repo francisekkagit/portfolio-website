@@ -12,7 +12,7 @@ const UnderConstruction = () => {
             </svg>
 
         </div>
-        <div className='RedHat bg-background_tile w-full sm:w-[50%] rounded-xl shadow-xl flex flex-col items-center gap-3 p-3 sm:gap-5 sm:p-5'>
+        <div className='RedHat bg-tile w-full sm:w-[50%] rounded-xl shadow-xl flex flex-col items-center gap-3 p-3 sm:gap-5 sm:p-5'>
             <img src='/component_imgs/francisProfile1.png' width={2979} height={2979} className='w-full max-w-[450px] rounded-full shadow-lg'/>
 
             <div className='flex flex-col gap-2'>

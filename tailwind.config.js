@@ -31,7 +31,8 @@ module.exports = {
           foreground: "#000000",         //Black
           subtext: "#757575",
           nav_dd_hover:"#ECECEC",        //Gray-400
-          background_tile: "#FFFFFF"     //White
+          tile: "#FFFFFF",               //White
+          subtile: "#ECECEC"
         }
       },
       "dark": {
@@ -40,7 +41,8 @@ module.exports = {
           foreground: "#FFFFFF",         //White
           subtext: "#C0C0C0",
           nav_dd_hover:"#22303c",        //Blue-500
-          background_tile: "#192734"     //Blue-600
+          tile: "#192734",               //Blue-600
+          subtile: "#22303c"
         }
       }
     }
