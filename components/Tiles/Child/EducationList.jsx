@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const EducationList = () => {
     return (
-    <div className='flex flex-col w-full gap-3'>
+    <div className='flex flex-col w-full gap-3 pb-3'>
         <div className='bg-subtile p-3 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
                 <Image src='/avatars/asuLogo.png' width={3062} height={2160} alt='soemthig' className='w-[64px]'/>
