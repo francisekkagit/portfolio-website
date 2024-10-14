@@ -98,6 +98,11 @@ section{
   .rowCenterH {
     @apply flex flex-row justify-center;
   }
+
+  .bulletPoint{
+    @apply rounded-xl min-w-2 min-h-2;
+  }
+
   
   /* FONTS */
   .regular-64 {
