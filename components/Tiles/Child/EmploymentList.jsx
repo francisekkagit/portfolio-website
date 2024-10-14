@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 const EmploymentList = () => {
   const [showDE, setShowDE] = useState(false);
+  const [showEDS, setShowEDS] = useState(false);
   const [showBSD, setShowBSD] = useState(false);
 
   return (
@@ -24,16 +25,49 @@ const EmploymentList = () => {
               <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Design, develop, and maintain an e-commerce application using Next.js, TailwindCSS, Node.js, and MongoDB ensuring security and compliance with industry standards.</span></div>
               <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Build and manage multiple responsive MERN applications.</span></div>
               <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Implement CI/CD pipelines using GitHub, ensuring seamless updates and integrations.</span></div>
-              <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Enhance Search Engine Optimization (SEO) using tools such as Google Search Console and Google Analytics to monitor performance, analyze traffic data, track user behavior, and increase website traffic.</span></div>
+              {!showDE && (<div className='max-md:hidden h-4'></div>)}
               {showDE && (
                 <div className='flex flex-col gap-2'>
-                  
+                  <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Enhance Search Engine Optimization (SEO) using tools such as Google Search Console and Google Analytics to monitor performance, analyze traffic data, track user behavior, and increase website traffic.</span></div>
                   <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Head marketing efforts using Google Ads. Manage Google Ad campaigns and collaborate with cross-functional teams to increase brand awareness.</span></div>
                 </div>
               )}
               {!showDE && (
                 <div
                   onClick={() => setShowDE(true)}
+                  className="absolute -bottom-1 w-full h-[70%] flex flex-col"
+                >
+                  <div className='h-[50%] bg-gradient-to-b from-transparent to-subtile'></div>
+                  <div className='h-[50%] bg-subtile flex justify-center items-center'>
+                    <span className='text-foreground'>Show More</span>
+                  </div>
+                </div>
+              )}
+            </div>
+        </div>
+
+        <div className='bg-subtile p-3 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
+            <div className='flex items-center gap-2'>
+            <div className='w-16 h-16 bg-gray-400 rounded-xl'></div>
+                <div className='flex flex-col leading-none justify-around items-start'>
+                    <span className='text-[16px] font-semibold'>Web Development Intern</span>
+                    <span className='text-sm text-subtext'>December 2022 - June 2023</span>
+                    <span className='text-sm text-subtext link_normal'>Eminence Design & Solutions</span>
+                    
+                </div>
+            </div>
+            <div className='flex flex-col gap-2 relative text-subtext'>
+              <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Led the development of a React.js service portal, integrating PostgreSQL and MongoDB databases.</span></div>
+              <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Strengthened web development fundamentals through hands-on experience with HTML, CSS, and Javascript.</span></div>
+              <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Participated in Agile development practices including stand-ups, sprint planning, and continuous integration.</span></div>
+              {showEDS && (
+                <div className='flex flex-col gap-2'>
+                  <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Utilized version control management with Github to contribute to collaborative repositories.</span></div>
+                </div>
+              )}
+              {!showEDS && (
+                <div
+                  onClick={() => setShowEDS(true)}
                   className="absolute -bottom-1 w-full h-[70%] flex flex-col"
                 >
                   <div className='h-[50%] bg-gradient-to-b from-transparent to-subtile'></div>
