@@ -14,7 +14,7 @@ const EmploymentList = () => {
             <div className='flex items-center gap-2'>
                 <Image src='/avatars/diabloLogo.png' width={2291} height={2291} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col leading-none justify-around items-start'>
-                    <span className='text-base font-semibold'>Full Stack Developer</span>
+                    <span className='text-[16px] font-semibold'>Full Stack Developer</span>
                     <span className='text-sm text-subtext'>June 2023 - Present</span>
                     <span className='text-sm text-subtext link_normal'>Diablo Escapes</span>
                     
@@ -49,7 +49,7 @@ const EmploymentList = () => {
             <div className='flex items-center gap-2'>
                 <Image src='/avatars/bsdxr.jpeg' width={200} height={200} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col leading-none justify-around items-start'>
-                    <span className='text-base font-semibold'>Capstone Machine Learning Developer</span>
+                    <span className='text-[16px] font-semibold'>Capstone Machine Learning Developer</span>
                     <span className='text-sm text-subtext'>May 2022 - December 2022</span>
                     <span className='text-sm text-subtext link_normal'>Bit Space Development</span>
                     
