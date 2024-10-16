@@ -11,7 +11,8 @@ const EmploymentList = () => {
 
   return (
     <div className='flex flex-col w-full h-full justify-around gap-3 pb-3'>
-        <div className='bg-subtile p-3 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
+        
+        <div className='bg-subtile p-3 lg:p-5 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
                 <Image src='/avatars/diabloLogo.png' width={2291} height={2291} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col leading-none justify-around items-start'>
@@ -44,9 +45,17 @@ const EmploymentList = () => {
                 </div>
               )}
             </div>
+            {showDE && (
+                <a href='https://www.diabloescapes.com/' className='flex gap-1 items-center text-blue-500 cursor-pointer text-[14px]'>
+                  <span>Visit diabloescapes.com</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
+              )}
         </div>
 
-        <div className='bg-subtile p-3 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
+        <div className='bg-subtile p-3 lg:p-5 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
             <div className='w-16 h-16 bg-gray-400 rounded-xl'></div>
                 <div className='flex flex-col leading-none justify-around items-start'>
@@ -79,7 +88,7 @@ const EmploymentList = () => {
             </div>
         </div>
 
-        <div className='bg-subtile p-3 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
+        <div className='bg-subtile p-3 lg:p-5 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
                 <Image src='/avatars/bsdxr.jpeg' width={200} height={200} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col leading-none justify-around items-start'>
@@ -111,6 +120,7 @@ const EmploymentList = () => {
               )}
             </div>
         </div>
+        
     </div>
   )
 }

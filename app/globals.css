@@ -16,8 +16,8 @@ html{scroll-behavior:smooth;}
 body{
 }
 
-section{
-  scroll-margin-top: 64px;
+div{
+  scroll-margin-top: 78px;
 }
 
 .YellowTail{

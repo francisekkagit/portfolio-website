@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Main Menu Desktop */}
         <div className='rowCenterV px-3 gap-1 max-sm:hidden lg:gap-4 xl:gap-8 2xl:gap-12 transition-all duration-300'>
             <Link href="/"><button className='btn_nav'>Link1</button></Link>
-            <Link href="/"><button className='btn_nav'>Link2</button></Link>
+            <Link href="/#AboutMe"><button className='btn_nav'>About Me</button></Link>
             <Link href="/"><button className='btn_nav'>Link3</button></Link>
         </div>
 
