@@ -16,6 +16,10 @@
 # production
 /build
 
+# schemes
+*.psd
+/schemes/
+
 # misc
 .DS_Store
 *.pem

@@ -100,7 +100,7 @@ div{
   }
 
   .bulletPoint{
-    @apply rounded-xl min-w-2 min-h-2;
+    @apply rounded-full min-w-2 min-h-2 opacity-25;
   }
 
   
