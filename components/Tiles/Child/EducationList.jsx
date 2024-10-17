@@ -11,10 +11,10 @@ const EducationList = () => {
                 <Image src='/avatars/asuLogo.png' width={3062} height={2160} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col leading-0 justify-around gap-1'>
                     <span className='font-semibold text-[16px]'>Arizona State University</span>
-                    <span className='text-subtext text-[14px]'>2018 - 2022</span>
+                    <span className='text-subtileText text-[14px]'>2018 - 2022</span>
                 </div>
             </div>
-            <div className='flex flex-col gap-2 text-subtext text-center'>
+            <div className='flex flex-col gap-2 text-subtileText text-center'>
                 <span>Ira A. Fulton Schools of Enineering</span>
                 <span>BS in Computer Science</span>
                 <span>GPA 3.48 Cum Laude</span>
@@ -26,10 +26,10 @@ const EducationList = () => {
                 <Image src='/avatars/awsIcon.png' width={512} height={512} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col leading-0 justify-around gap-1'>
                     <span className='font-semibold text-[16px]'>Amazon Web Services</span>
-                    <span className='text-subtext text-[14px]'>April 2023</span>
+                    <span className='text-subtileText text-[14px]'>April 2023</span>
                 </div>
             </div>
-            <div className='flex flex-col leading-none gap-2 text-subtext text-center'>
+            <div className='flex flex-col leading-none gap-2 text-subtileText text-center'>
                 <span>Certified AWS Cloud Practitioner</span>
                 <span className='flex justify-center items-center gap-2'><span className='whitespace-nowrap'>Credential ID</span><Snippet size='sm' symbol='' className=''>N4BLKEQ14JV41VGZ</Snippet></span>
             </div>
@@ -46,10 +46,10 @@ const EducationList = () => {
                 <Image src='/avatars/dlLogo.png' width={512} height={512} alt='soemthig' className='w-[64px]'/>
                 <div className='flex flex-col leading-none justify-around gap-1'>
                     <span className='font-semibold text-[16px]'>DeepLearning.AI</span>
-                    <span className='text-subtext text-[14px]'>September 2024</span>
+                    <span className='text-subtileText text-[14px]'>September 2024</span>
                 </div>
             </div>
-            <div className='flex flex-col leading-none gap-2 text-subtext text-center'>
+            <div className='flex flex-col leading-none gap-2 text-subtileText text-center'>
                 <span>TensorFlow Professional Developer</span>
                 <span>Credential ID 7MFYEEGDUM83</span>
             </div>
