@@ -4,7 +4,7 @@ import { Snippet } from '@nextui-org/react'
 
 const EducationList = () => {
     return (
-    <div className='flex flex-col w-full md:h-full gap-3 md:gap-7 pb-3'>
+    <div className='flex flex-col w-full gap-3 md:gap-7 max-sm:pb-3 justify-center'>
 
         <div className='bg-subtile p-3 lg:p-5 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
@@ -31,7 +31,7 @@ const EducationList = () => {
             </div>
             <div className='flex flex-col leading-none gap-2 text-subtext text-center'>
                 <span>Certified AWS Cloud Practitioner</span>
-                <span className='flex justify-center items-center gap-2'><span>Credential ID</span><Snippet size='sm' symbol='' className=''>N4BLKEQ14JV41VGZ</Snippet></span>
+                <span className='flex justify-center items-center gap-2'><span className='whitespace-nowrap'>Credential ID</span><Snippet size='sm' symbol='' className=''>N4BLKEQ14JV41VGZ</Snippet></span>
             </div>
             <a href='https://aws.amazon.com/verification' className='flex gap-1 items-center justify-center text-blue-500 cursor-pointer text-[14px]'>
                 <span>Validate my certificate</span>
