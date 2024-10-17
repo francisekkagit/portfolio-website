@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-
 import QuickMessage from '../Child/QuickMessage';
+import ProfileImgBox from '../Child/ProfileImgBox';
 
 const Hero1 = () => {
   return (
@@ -15,11 +15,9 @@ const Hero1 = () => {
 
           {/* <QuickMessage/> */}
         </div>
-        <div className='w-full h-[55%] sm:w-[40%] sm:h-full flex justify-center items-center p-7 overflow-hidden heroHiddenSmall'>
-          <div className='aspect-[1/1] max-h-full rounded-full shadow-md'>
-            <Image src='/component_imgs/francisProfile1.png' width={2979} height={2979} alt='francis_ekka'/>
-          </div>
-        </div>
+
+
+        <ProfileImgBox/>
       </div>
   )
 }

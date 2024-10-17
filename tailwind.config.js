@@ -33,7 +33,8 @@ module.exports = {
           nav_dd_hover:"#ECECEC",        //Gray-400
           tile: "#FFFFFF",               //White
           subtile: "#ECECEC",
-          subtileText: "#666666"
+          subtileText: "#666666",
+          blueLink: "#3b82f6"
         }
       },
       "dark": {
@@ -44,7 +45,8 @@ module.exports = {
           nav_dd_hover:"#22303c",        //Blue-500
           tile: "#192734",               //Blue-600
           subtile: "#22303c",
-          subtileText: "#acacac"
+          subtileText: "#acacac",
+          blueLink: "#60a5fa"
         }
       }
     }

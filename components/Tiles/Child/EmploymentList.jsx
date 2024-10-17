@@ -18,7 +18,7 @@ const EmploymentList = () => {
                 <div className='flex flex-col leading-none justify-around items-start'>
                     <span className='text-[16px] font-semibold'>Full Stack Developer</span>
                     <span className='text-sm text-subtileText font-light'>June 2023 - Present</span>
-                    <span className='text-sm text-subtileText font-light link_normal'>Diablo Escapes</span>
+                    <a href='https://www.diabloescapes.com/' className='text-sm text-subtileText font-light link_foreground' target='_blank'>Diablo Escapes</a>
                     
                 </div>
             </div>
@@ -47,7 +47,7 @@ const EmploymentList = () => {
             </div>
             {showDE && (
                 <div className='flex'>
-                  <a href='https://www.diabloescapes.com/' className='flex gap-1 items-center text-blue-500 cursor-pointer text-[14px] border-2' target='_blank'>
+                  <a href='https://www.diabloescapes.com/' className='flex gap-1 items-center  text-[14px] text-blueLink ' target='_blank'>
                     <span>Visit diabloescapes.com</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -59,11 +59,11 @@ const EmploymentList = () => {
 
         <div className='bg-subtile p-3 lg:p-5 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
-            <div className='w-16 h-16 bg-gray-400 rounded-xl'></div>
+            <div className='w-16 h-16 bg-background rounded-xl'></div>
                 <div className='flex flex-col leading-none justify-around items-start'>
                     <span className='text-[16px] font-semibold'>Web Development Intern</span>
                     <span className='text-sm text-subtileText font-light'>December 2022 - June 2023</span>
-                    <span className='text-sm text-subtileText font-light link_normal'>Eminence Design & Solutions</span>
+                    <span className='text-sm text-subtileText font-light'>Eminence Design & Solutions</span>
                     
                 </div>
             </div>
@@ -96,7 +96,7 @@ const EmploymentList = () => {
                 <div className='flex flex-col leading-none justify-around items-start'>
                     <span className='text-[16px] font-semibold'>Capstone Machine Learning Developer</span>
                     <span className='text-sm text-subtileText font-light'>May 2022 - December 2022</span>
-                    <span className='text-sm text-subtileText font-light link_normal'>Bit Space Development</span>
+                    <span className='text-sm text-subtileText font-light link_foreground'>Bit Space Development</span>
                     
                 </div>
             </div>
@@ -123,7 +123,7 @@ const EmploymentList = () => {
             </div>
             {showBSD && (
                 <div className='flex'>
-                  <a href='https://www.bitspacedevelopment.com/' className='flex gap-1 items-center text-blue-500 cursor-pointer text-[14px] border-2' target='_blank'>
+                  <a href='https://www.bitspacedevelopment.com/' className='flex gap-1 items-center text-[14px] text-blueLink ' target='_blank'>
                     <span>bitspacedevelopment.com</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />

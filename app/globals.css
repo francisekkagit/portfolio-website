@@ -75,8 +75,8 @@ div{
   .custom_dropdown_item{
     @apply hover:bg-nav_dd_hover ease-in-out duration-150;
   }
-  .link_normal{
-    @apply hover:text-blue-500 cursor-pointer transition-all duration-150;
+  .link_foreground{
+    @apply hover:text-foreground cursor-pointer transition-all duration-150;
   }
 
   /* COMPONENTS & PAGES */
