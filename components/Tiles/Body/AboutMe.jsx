@@ -4,10 +4,10 @@ import EmploymentList from '../Child/EmploymentList'
 
 const AboutMe = () => {
   return (
-    <div className='bg-tile w-full max-tile rounded-xl shadow-lg animate-slide-up p-7' id='AboutMe'>
+    <div className='home-tile p-10' id='AboutMe'>
         
-       <div className='flex flex-col md:flex-row md:gap-7'> {/* Main Container col -> row */}
-            <div className='flex flex-col md:w-[50%] lg:w-[40%] items-center justify-around gap-3'>
+       <div className='flex flex-col md:flex-row md:gap-10'> {/* Main Container col -> row */}
+            <div className='flex flex-col md:w-[50%] lg:w-[40%] items-center justify-around  gap-10'>
                 <span className='text-[32px] min-[500px]:text-[42px] font-semibold textShadow-header transition-all duration-150 leading-none'>About Me</span>
                 <EducationList/>
             </div>

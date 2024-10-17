@@ -86,6 +86,9 @@ div{
   .max-tile {
     @apply w-full max-w-[1500px];
   }
+  .home-tile{
+    @apply bg-tile w-full max-tile rounded-xl shadow-lg animate-slide-up;
+  }
   
   .padding-nav{
     @apply 
@@ -95,9 +98,7 @@ div{
   .rowCenterV {
     @apply flex flex-row items-center;
   }
-  .rowCenterH {
-    @apply flex flex-row justify-center;
-  }
+ 
 
   .bulletPoint{
     @apply rounded-full min-w-2 min-h-2 opacity-25;

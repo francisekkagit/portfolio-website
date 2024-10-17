@@ -20,7 +20,7 @@ const ProfileImgBox = () => {
         };
       }, []);
   return (
-    <div className='w-full h-[55%] sm:w-[40%] sm:h-full flex justify-center items-center p-7 overflow-hidden heroHiddenSmall'>
+    <div className='h-[50%] max-sm:w-full sm:h-full flex justify-center items-center sm:p-7 overflow-hidden heroHiddenSmall animate-slide-up '>
         <div className='aspect-[1/1] max-h-full rounded-full shadow-md'>
             <Image src='/component_imgs/francisProfile1.png' width={2979} height={2979} alt='francis_ekka'/>
         </div>
