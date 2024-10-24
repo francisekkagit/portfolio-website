@@ -4,7 +4,7 @@ import { Snippet } from '@nextui-org/react'
 
 const EducationList = () => {
     return (
-    <div className='flex flex-col w-full gap-3 md:gap-7 max-sm:pb-3 justify-center'>
+    <div className='flex flex-col w-full gap-3 md:gap-7 max-md:pb-3 justify-center'>
 
         <div className='bg-subtile p-3 lg:p-5 flex flex-col gap-3 rounded-xl shadow-md leading-none'>
             <div className='flex items-center gap-2'>
