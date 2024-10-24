@@ -5,7 +5,7 @@ import ProfileImgBox from '../Child/ProfileImgBox';
 
 const Hero1 = () => {
   return (
-      <div className='h-[40vh] flex flex-col sm:flex-row justify-center items-center overflow-hidden w-full max-tile gap-5'>
+      <div className='h-[40vh] flex flex-col sm:flex-row justify-around sm:justify-center items-center overflow-hidden w-full max-tile gap-5'>
         
         <div className=' flex flex-col gap-10 md:gap-12 lg:gap-14 justify-center items-center sm:h-full RedHat overflow-hidden heroFullHeightSmall '>
           <div className='flex flex-col gap-3 text-center leading-none  w-full'>

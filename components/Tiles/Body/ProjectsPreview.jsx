@@ -26,7 +26,7 @@ const ProjectsPreview = () => {
                 <span className='font-semibold text-[18px]'>{proj.name}</span>
                 <span className='font-thin'>{proj.description}</span>
               </div>
-              <div className='flex gap-2 md:gap-3'>
+              <div className='flex flex-wrap gap-2 md:gap-3'>
                 {proj.chips.map((chip, chipIndex) => (
                   <Chip variant='flat' key={chipIndex} className='hover:shadow-sm transition-all duration-300'>{chip}</Chip>
                 ))}
