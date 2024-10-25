@@ -15,7 +15,7 @@ const ProjectsPreview = () => {
 
 
   return (
-    <div className='w-full max-tile flex flex-col gap-5 my-3'>
+    <div className='w-full max-tile flex flex-col gap-5 my-3' id='Projects'>
         {projects.map((proj, projIndex) => (
           <div className='bg-tile rounded-xl shadow-lg flex max-md:flex-col p-3 md:p-5 gap-5' key={projIndex}>
             <a className='w-full md:w-[40%] rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex' href={proj.link}>
