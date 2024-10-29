@@ -32,7 +32,7 @@ module.exports = {
           subtext: "#757575",
           nav_dd_hover:"#ECECEC",        //Gray-400
           tile: "#FFFFFF",               //White
-          subtile: "#ECECEC",
+          subtile: "#f2f2f2",
           subtileText: "#666666",
           blueLink: "#3b82f6"
         }

@@ -56,9 +56,9 @@ const Navbar = () => {
                     </svg>
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions" className=''>
-                    <DropdownItem key="About" className='p-0 custom_dropdown_item' color=''><Link href="/" className="link_dropdown">Link1</Link></DropdownItem>
-                    <DropdownItem key="Projects" className='p-0 custom_dropdown_item' color=''><Link href="/" className="link_dropdown">Link2</Link></DropdownItem>
-                    <DropdownItem key="Skills" className='p-0 custom_dropdown_item' color=''><Link href="/" className="link_dropdown">Link3</Link></DropdownItem>
+                    <DropdownItem key="About" className='p-0 custom_dropdown_item' color=''><Link href="/#AboutMe" className="link_dropdown">About Me</Link></DropdownItem>
+                    <DropdownItem key="Projects" className='p-0 custom_dropdown_item' color=''><Link href="/#Projects" className="link_dropdown">Projects</Link></DropdownItem>
+                    {/* <DropdownItem key="Skills" className='p-0 custom_dropdown_item' color=''><Link href="/" className="link_dropdown">Link3</Link></DropdownItem> */}
                     <DropdownItem key="Socials" className='p-0 custom_dropdown_item' color=''>
                         <div className='flex flex-row gap-3 justify-center py-2'>
                             {/* LinkedIn */}

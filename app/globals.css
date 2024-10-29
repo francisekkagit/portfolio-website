@@ -87,7 +87,7 @@ div{
     @apply w-full max-w-[1500px];
   }
   .max-tile-sm {
-    @apply w-full max-w-[1000px]
+    @apply w-full max-w-[1100px]
   }
   .home-tile{
     @apply bg-tile w-full max-tile rounded-xl shadow-lg animate-slide-up;
