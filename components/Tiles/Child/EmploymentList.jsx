@@ -31,6 +31,7 @@ const EmploymentList = () => {
                 <div className='flex flex-col gap-2'>
                   <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Enhance Search Engine Optimization (SEO) using tools such as <span className='font-normal'>Google Search Console</span> and <span className='font-normal'>Google Analytics</span> to monitor performance, analyze traffic data, track user behavior, and increase website traffic.</span></div>
                   <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Head marketing efforts using <span className='font-normal'>Google Ads</span>. Manage Google Ad campaigns and collaborate with cross-functional teams to increase brand awareness.</span></div>
+                  <div className='flex gap-2'><div className='bulletPoint bg-current'/><span>Management and collaboration tools such as <span className='font-normal'>Jira</span> and <span className='font-normal'>Discord</span>.</span></div>                  
                 </div>
               )}
               {!showDE && (
