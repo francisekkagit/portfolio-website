@@ -4,6 +4,7 @@ import UnderConstruction from "@/components/Tiles/Body/UnderConstruction"
 import Hero1 from "@/components/Tiles/Heros/Hero1"
 import Image from "next/image"
 import Projects from "./Projects/page"
+import SkillsMasonry from "@/components/Tiles/Body/SkillsMasonry"
 
 export const metadata = {
   title: 'Francis Ekka',
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero1/>
       <AboutMe/>
       <ProjectsPreview/>
+      {/* <SkillsMasonry/> */}
     </div>
   )
 }
