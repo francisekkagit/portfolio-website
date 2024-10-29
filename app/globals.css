@@ -87,10 +87,13 @@ div{
     @apply w-full max-w-[1500px];
   }
   .max-tile-sm {
-    @apply w-full max-w-[1200px]
+    @apply w-full max-w-[1000px]
   }
   .home-tile{
     @apply bg-tile w-full max-tile rounded-xl shadow-lg animate-slide-up;
+  }
+  .skill-tile{
+    @apply py-2 px-3 bg-subtile rounded-xl shadow-sm text-center text-wrap;
   }
   
   .padding-nav{

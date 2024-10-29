@@ -17,8 +17,9 @@ export default function Home() {
       {/* <UnderConstruction/> */}
       <Hero1/>
       <AboutMe/>
+      <SkillsMasonry/>
       <ProjectsPreview/>
-      {/* <SkillsMasonry/> */}
+      
     </div>
   )
 }
